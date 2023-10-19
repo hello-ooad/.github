@@ -2,6 +2,11 @@
 
 `user`:
 
+- http://10.27.26.94:9090/user/islogin
+- http://10.27.26.94:9090/user/list
+- http://10.27.26.94:9090/user/signin?userName=admin&userPassword=123456
+- http://10.27.26.94:9090/user/logout
+
 - `/user`
 
     - `/signin`：登录
@@ -17,11 +22,11 @@
         - {
 
               "code": 501,
-        
+            
               "msg": "用户名不存在",
-        
+            
               "data": **null**,
-        
+            
               "dataCount": **null**
 
             }
@@ -29,11 +34,11 @@
         - {
 
               "code": 502,
-        
+            
               "msg": "用户名或密码错误",
-        
+            
               "data": **null**,
-        
+            
               "dataCount": **null**
 
             }
@@ -41,11 +46,11 @@
         - {
 
               "code": 200,
-          
+              
               "msg": "success!",
-          
+              
               "data": **null**,
-          
+              
               "dataCount": **null**
 
             }
@@ -70,11 +75,11 @@
         - {
 
               "code": 401,
-            
+                
               "msg": "token 无效：549530c3-dd5d-4a46-8292-1d0585359f1f",
-            
+                
               "data": **null**,
-            
+                
               "dataCount": **null**
 
             }
