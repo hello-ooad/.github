@@ -152,6 +152,15 @@
 - record系列: 给出所有可关联的数据，用于输入输出检测
 - search系列: 根据前端需要给出数据，用于模型正常实现
 - `/building`
+    - `/record`: 添加建筑
+        - 查询参数：（emm，不清楚，问高哥doge）
+        - {
+
+          成功："success adding a building"
+     
+          否则："Fail to add a building"
+            
+          }
     - `/recordAll`: 列出所有建筑及全部相关信息
         - 查询参数：
         - 返回：
@@ -164,3 +173,4 @@
           评论：id（replyId），进行评论的用户id（userId），被评论的用户id（targetId），所属话题id（commentId），评论内容（replyContent），上传时间（replyTime），是否可见（replyValid（用于管理员权限实现）），点赞成员（replyLiked（由用户id组成的list）），user详细信息（userInformation（userId, userName, userPassword, userImg）），target详细信息（targetId, targetName, targetPassword, targetImg））
           
             }
+    - `/recordById`
