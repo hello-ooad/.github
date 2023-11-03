@@ -156,7 +156,7 @@
     - 查询参数：
     - 返回：
     - {
-      建筑：id（buildingId），名字（buildingName），图片（buildingImg），描述（buildingDescription），横、纵坐标（buildingX、buildingY），相关话题（comments（一个list））
-      话题：id（commentId），评论用户id（userId），所属建筑信息（buildingId），话题内容（commentContent），上传时间（commentTime），是否可见（commentValid（用于管理员权限实现）），点赞成员（commentLiked（由用户id组成的list）），发帖用户详细信息（userInformation（userId, userName, userPassword, userImg）），相关回复（replies（一个list））
-      评论：id（replyId），进行评论的用户id（userId），被评论的用户id（targetId），所属话题id（commentId），评论内容（replyContent），上传时间（replyTime），是否可见（replyValid（用于管理员权限实现）），点赞成员（replyLiked（由用户id组成的list）），user详细信息（userInformation（userId, userName, userPassword, userImg）），target详细信息（targetId, targetName, targetPassword, targetImg））
+    - 建筑：id（buildingId），名字（buildingName），图片（buildingImg），描述（buildingDescription），横、纵坐标（buildingX、buildingY），相关话题（comments（一个list））
+    - 话题：id（commentId），评论用户id（userId），所属建筑信息（buildingId），话题内容（commentContent），上传时间（commentTime），是否可见（commentValid（用于管理员权限实现）），点赞成员（commentLiked（由用户id组成的list）），发帖用户详细信息（userInformation（userId, userName, userPassword, userImg）），相关回复（replies（一个list））
+    - 评论：id（replyId），进行评论的用户id（userId），被评论的用户id（targetId），所属话题id（commentId），评论内容（replyContent），上传时间（replyTime），是否可见（replyValid（用于管理员权限实现）），点赞成员（replyLiked（由用户id组成的list）），user详细信息（userInformation（userId, userName, userPassword, userImg）），target详细信息（targetId, targetName, targetPassword, targetImg））
       }
