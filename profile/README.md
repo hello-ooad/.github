@@ -174,3 +174,31 @@
           
             }
     - `/recordById`
+        - 查询参数:
+        - `Id`
+        - 返回：指定建筑信息，内容同上
+    - `/searchAll`
+        - 查询参数:
+        - 返回:
+        - {
+
+              建筑id: buildingId，建筑名称: buildingName
+          
+            }
+    - `/searchById`
+        - 查询参数:
+        - 返回:
+        - {
+
+              建筑id: buildingId
+
+              建筑名称: buildingName
+
+              建筑图片: buildingImg
+
+              建筑描述: buildingDescription
+     
+              可见的相关话题：comments（存有话题id的list）
+              
+            } 
+          
